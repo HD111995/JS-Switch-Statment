@@ -1,0 +1,74 @@
+:root {
+  --dhl-red: #d40511;
+  --dhl-yellow: #ffcc00;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-left: 30vw;
+}
+.main {
+  width: 40vw;
+  padding: 20px;
+  margin-top: 30vh;
+  background-color: gray;
+  border-radius: 10px;
+}
+.main input {
+  font-size: 18px;
+  border-radius: 10px;
+  height: 6vh;
+}
+input[type="text"] {
+  width: 25vw;
+}
+input[type="button"] {
+  width: 10vw;
+}
+#result {
+  font-size: 20px;
+}
+
+.dhl {
+  display: flex;
+  color: var(--dhl-red);
+  background-color: var(--dhl-yellow);
+  height: 9em;
+  width: 25em;
+}
+
+.boxMasse {
+  margin: 5px;
+  width: 200px;
+  border: 2px solid var(--dhl-red);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dhlButton {
+  border: 2px solid var(--dhl-red);
+  color: #fff;
+  background-color: var(--dhl-red);
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 3.8rem;
+  border: 2px solid #d1d1d1;
+  border-radius: 0;
+  cursor: pointer;
+  outline: 0;
+  font-weight: 500;
+  white-space: normal;
+  transition: color 200ms, background-color 200ms, border-color 200ms;
+}
+.dhlButton:hover {
+  color: var(--dhl-red);
+  background-color: #fff;
+  outline: 0;
+  border-color: var(--dhl-red);
+}
+section {
+  margin-top: 10vh;
+}

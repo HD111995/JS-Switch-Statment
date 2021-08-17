@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaSwitch</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <input type="text" name="" id="bw">
+            <input type="button" value="Check" onclick="check()">
+        </form>
+        <div id="result">
+
+        </div>
+    </div>
+    <section>
+        <div class="dhl">
+            <form id="myform">
+              <select name="mylist" size="3" id="mylist">
+                <option value="0">Briefe</option>
+                <option value="0">Postkarte</option>
+                <option value="1">Bücher bis 500g</option>
+                <option value="1">Bücher bis 1000g</option>
+                <option value="1">MacBook Air</option>
+                <option value="2">Drucker</option>
+                <option value="2">Mikrowelle</option>
+                <option value="3">Kleinmöbel</option>
+                <option value="3">kleine Kühlschränke</option>
+              </select>
+              <a
+                type="button"
+                class="dhlButton"
+                onclick="showtxt()"
+                value="Paketgröße und -gewicht"
+                >Paketgröße und -gewicht</a
+              >
+            </form>
+            <div class="boxMasse">
+              <table>
+                <tr>
+                  <td><b>Größe und Gewicht:</b></td>
+                  <td id="masse"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+      
+      
+    </section>
+ <script src="assets/js/main.js"></script>   
+</body>
+</html>
